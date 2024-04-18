@@ -11,3 +11,22 @@ body {
     align-items:center ;
     flex-direction: column;
 }
+
+
+
+input:invalid {
+    border-color:  red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:focus:invalid {
+outline: none;
+}
+
+
+select:valid {
+    border-color: green;
+}
